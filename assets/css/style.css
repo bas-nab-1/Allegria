@@ -28,6 +28,12 @@ h2{
     font-family: var(--primary-font);
 }
 
+h3 {
+    color: var(--primary-color-dark);
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+}
+
 /* Navigation */
 .navbar {
    background-color: var(--primary-color-light);
@@ -104,11 +110,9 @@ header {
     border-radius: 30px;
 }    
 .intro-title {
-    font-family: var(--primary-font);
     font-size: 3rem;
-    margin-top: 3vh;
-    margin-bottom: 8vh;
-    color: var(--secondary-color);
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .intro-text {
@@ -125,7 +129,6 @@ header {
 .intro-img {
     max-inline-size: 100%;
     padding: 0px 10px;
-    max-width: 75%;
     margin-bottom: 2vh;
     border-radius: 20px;
 }
@@ -133,15 +136,20 @@ header {
 #intro-img {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
+.intro-info {
+    display: flex;
+    justify-content: center;
+}
 .intro-info p {
+    text-align: center;
     font-size: 1.5rem;
-    line-height: 2;
-    font-weight: 600;
-    font-family: var(--secondary-font);
-    color: var(--tertiary-color);
-    margin-bottom: 4vh;
+    font-weight: bold;
+}
+.table-head {
+    background-color: var(--primary-color-light);
 }
 
    
