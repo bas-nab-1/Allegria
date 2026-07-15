@@ -13,9 +13,11 @@
 
 /* Global styles */
 body {
-    background-color: white;
+    background-color: var(--primary-color-light);
     height: 2000px;
+    
 }
+
 h1 {
     color: var(--primary-color-dark);
     font-family: var(--primary-font);
@@ -90,6 +92,62 @@ header {
  }
 
 /* Main section */
+    /* Introduction */
+
+.main-content {
+        margin: 0px 20px;
+    }
+
+.intro {
+    background-color: white;
+    padding-bottom: 8vh;
+    border-radius: 30px;
+}    
+.intro-title {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+    color: var(--secondary-color);
+}
+
+.intro-text {
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 2;
+    padding: 0px 10px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.intro-img {
+    max-inline-size: 100%;
+    padding: 0px 10px;
+    max-width: 75%;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+}
+
+#intro-img {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-info p {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    color: var(--tertiary-color);
+    margin-bottom: 4vh;
+}
+
+   
+
+
+
 
 /* Footer */
 
