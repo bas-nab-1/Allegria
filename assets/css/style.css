@@ -32,9 +32,11 @@ h2{
 
 .logo {
     font-family: var(--primary-font);
-    color: var(--primary-color-dark);
+    color: var(--secondary-color);
     font-size: 3.5vh;
     cursor: pointer;
+    text-shadow: 1.5px 1.5px 0 var(--tertiary-color);
+    letter-spacing: 0.4rem;
 }
 
 .navbar-nav {
