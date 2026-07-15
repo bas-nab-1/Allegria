@@ -13,7 +13,7 @@
 
 /* Global styles */
 body {
-    background-color: var(--primary-color-light);
+    background-color: white;
 }
 h1 {
     color: var(--primary-color-dark);
@@ -23,4 +23,33 @@ h1 {
 h2{
     color: var(--secondary-color);
     font-family: var(--primary-font);
+}
+
+/* Navigation */
+.navbar {
+   background-color: var(--primary-color-light);
+}
+
+.logo {
+    font-family: var(--primary-font);
+    color: var(--primary-color-dark);
+    font-size: 3.5vh;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    gap: 1vh;
+}
+
+.nav-item {
+    font-size: 2.5vh;
+    letter-spacing: 0.4rem;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+}
+
+.nav-link:hover {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+    font-weight: bold;
 }
