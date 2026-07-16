@@ -201,6 +201,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
+    margin-bottom: 3rem;
 }
 
    
