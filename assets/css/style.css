@@ -167,6 +167,42 @@ header {
     background-color: var(--secondary-color);
     color: white;
 }
+
+/* Gallery */
+    /* Gallery carousel for small devices*/
+.gallery-carousel {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.carousel-img {
+    border-radius: 30px;
+    margin-bottom: 3rem;
+}
+
+    /* Gallery expended for devices 768px and up*/
+#gallery-md {
+    display: none;
+}
+
+.gallery-md {
+    background-color: white;
+    border-radius: 30px;
+}
+.gallery-title {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.gallery-img {
+    max-inline-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
    
 
 
@@ -180,5 +216,13 @@ header {
     /* Make the brand name well proportioned on larger screen */
     .brand-name {
         font-size: 12vh;
+    }
+
+    .gallery-carousel {
+        display: none;
+    }
+
+    #gallery-md {
+        display: block;
     }
 }
