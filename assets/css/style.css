@@ -36,23 +36,22 @@ h3 {
 /* Navigation */
 .navbar {
    background-color: var(--primary-color-light);
+   padding: 0.1rem;
 }
 
-.logo {
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
-    font-size: 3.5vh;
-    cursor: pointer;
-    text-shadow: 1.5px 1.5px 0 var(--tertiary-color);
-    letter-spacing: 0.4rem;
+#logo {
+    width: auto;
+    height: 4rem;
+    border-radius: 50px;
 }
+    
 
 .navbar-nav {
     gap: 1vh;
 }
 
 .nav-item {
-    font-size: 2.5vh;
+    font-size: 1.4rem;
     letter-spacing: 0.4rem;
     color: var(--secondary-color);
     font-family: var(--secondary-font);
@@ -62,6 +61,11 @@ h3 {
     color: var(--tertiary-color);
     text-decoration: underline;
     font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /* Header */
@@ -117,15 +121,16 @@ h3 {
     font-size: 1.4rem;
     font-style: italic;
     line-height: 2;
-    padding: 0px 10px;
     font-family: var(--secondary-font);
     font-weight: 600;
     display: flex;
     align-items: center;
+
 }
 
 .intro-img {
-    max-inline-size: 100%;
+    width: 100%;
+    height: auto;
     padding: 0px 10px;
     margin-bottom: 2vh;
     border-radius: 20px;
@@ -143,11 +148,16 @@ h3 {
     align-items: center;
 }
 
+.call-now {
+    padding-top: 20px;
+}
+
 .intro-info p {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .table-head {
     background-color: var(--primary-color-light);
 }
@@ -168,7 +178,7 @@ h3 {
 }
 
 /* Gallery */
-    /* Gallery carousel for small devices*/
+    /* Gallery carousel for small devices <768px*/
 .gallery-carousel {
     background-color: white;
     border-radius: 30px;
