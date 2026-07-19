@@ -5,7 +5,7 @@
 :root {
 --primary-font: "permanent marker", sans-serif;
 --secondary-font: "cause", sans-serif;
---primary-color-dark: rgb(0,146,70);
+--primary-color-dark: rgb(2, 122, 60);
 --primary-color-light: rgb(173, 235, 203);
 --secondary-color: rgb(206,43,55);
 --tertiary-color: rgb(131, 114, 114);
@@ -274,7 +274,7 @@ form label {
     background-color: white;
     border-radius: 30px;
 }
-
+    
 .pizza-menu h1 {
     font-size: 8vh;
 }
