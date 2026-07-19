@@ -15,7 +15,6 @@
 body {
     background-color: var(--primary-color-light);
     height: 2000px;
-    
 }
 
 h1 {
@@ -233,7 +232,6 @@ h3 {
     border-radius: 30px;
     line-height: 2.5;
     text-align: center;
-    padding-bottom: 15px;
 }
 
 .fa-instagram {
