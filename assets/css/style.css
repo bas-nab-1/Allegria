@@ -14,7 +14,6 @@
 /* Global styles */
 body {
     background-color: var(--primary-color-light);
-    height: 2000px;
 }
 
 h1 {
@@ -261,6 +260,51 @@ h3 {
 form label {
     color: var(--secondary-color);
 }
+
+/* Menu */
+.menu-title {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pizza-menu {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;  
+    background-color: white;
+    border-radius: 30px;
+}
+
+.pizza-menu h1 {
+    font-size: 8vh;
+}
+
+.pizza-menu h2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.table {
+    max-width: 75%;
+    margin: auto;
+}
+
+.ingredients {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.deserts-menu {
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.drinks-menu {
+    margin-bottom: 50px;
+    border-radius: 30px
+}
+
 /* Media queries */
 
 @media screen and (min-width: 768px) {
