@@ -40,7 +40,7 @@ h3 {
 
 #logo {
     width: auto;
-    height: 4rem;
+    height: 50px;
     border-radius: 50px;
 }
     
@@ -174,12 +174,29 @@ h3 {
 }
 
     /* Services cards*/
+.services {
+    align-self: center;
+}
+
 .card {
     margin: 1.5rem;
     border-radius: 30px;
 }
 
+.menu-card {
+    display: flex;
+    justify-content: center;
+}
+
+.reservation-card {
+    display: flex;
+    justify-content: center;
+}    
+
+
 .card-img {
+    width: 100%;
+    height: auto;
     border-radius: 30px;
 }
 
@@ -196,6 +213,8 @@ h3 {
 }
 
 .carousel-img {
+    height: auto;
+    width: 100%;
     border-radius: 30px;
     margin-bottom: 3rem;
 }
@@ -217,7 +236,8 @@ h3 {
 }
 
 .gallery-img {
-    max-inline-size: 100%;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
@@ -262,9 +282,30 @@ form label {
 }
 
 /* Menu */
+#menu-logo {
+    width: auto;
+    height: 125px;
+    margin: 40px auto;
+
+}
 .menu-title {
-    padding-bottom: 50px;
     text-align: center;
+}
+
+.th1 {
+    width: 79%;
+}
+
+.th2 {
+    width: 7%;
+}
+
+.th3 {
+    width: 7%;
+}
+
+.th4 {
+    width: 7%;
 }
 
 .pizza-menu {
@@ -286,7 +327,7 @@ form label {
 }
 
 .table {
-    max-width: 75%;
+    max-width: 90%;
     margin: auto;
 }
 

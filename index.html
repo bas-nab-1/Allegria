@@ -115,9 +115,9 @@
             </div>
         </div>
 
-        <div class="container services">
-            <div class="row">
-                <div class="col-12 col-md-6">
+        <div class="container">
+            <div class="row services">
+                <div class="col-12 col-md-6 menu-card">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/menu-card-img.jpg" class="card-img" alt="image for the pizza menu">
                         <div class="card-body">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 reservation-card">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/reserve-card-img.jpg" class="card-img" alt="image for reserving a table">
                         <div class="card-body">
@@ -286,11 +286,14 @@
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="number" class="form-label">
                                     <i class="fa-solid fa-list-ol"></i>
-                                    Number of guests*
+                                    Number of guests* 
                                 </label>
-                                <input class="form-control" id="number" name="number" type="number" min="1" max="12"
+                                <input class="form-control" id="number" name="number" type="number" min="1" max="10"
                                  required>
-                            </div>
+                                 </div>
+                                 <div class="col-12 col-lg-6">
+                                 <p class="groups"><em>For booking over 10 people, please call us to check availability (081 234 5678)</em></p>
+                                 </div>
                             <div class="col-12 mb-3">
                                 <label for="message" class="form-label">
                                     <i class="fa-regular fa-message"></i>
@@ -330,16 +333,7 @@
  </div>
 
 
-
-
-
-
-
-
-
-    
-
-    <!--Boostrap script for JS-->
+ <!--Boostrap script for JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
