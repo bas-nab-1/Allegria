@@ -22,7 +22,7 @@
 </head>
 
 
-<body class="d-flex flex-column min-vh-100">
+<body>
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
@@ -51,13 +51,17 @@
     </nav>
 
     <header>
+
+        <!-- Hero section -->
         <div class="hero">
             <h1 class="brand-name text-center">Allegria</h1>
-            <div id="italy"></div>
+            <img class="italy" src="assets/images/Flag_of_Italy.svg.webp" alt="italian flag">
         </div>
     </header>
 
     <main class="main-content">
+
+    <!-- Intro section -->
         <div class="container intro">
             <div class="text-center">
                 <h2 class="intro-title">Authentic Italian Pizza in Adamstown</h2>
@@ -114,7 +118,8 @@
                 </div>
             </div>
         </div>
-
+    
+    <!-- Services card from Bootstrap -->
         <div class="container">
             <div class="row services">
                 <div class="col-12 col-md-6 menu-card">
@@ -229,7 +234,7 @@
         </div>
     </footer>
 
-    <!-- Modal -->
+    <!-- Reservation Modal -->
 <div class="modal fade" id="reservationModalToggle" aria-hidden="true" 
      tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -311,7 +316,8 @@
             </div>
         </div>
     </div>
-</div>    
+</div> 
+    <!-- Confirmation modal -->   
  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
      tabindex="-1">
      <div class="modal-dialog modal-dialog-centered">
@@ -340,6 +346,28 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/7709c2b732.js" crossorigin="anonymous"></script>
+
+      <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+<script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
 
 </body>
 

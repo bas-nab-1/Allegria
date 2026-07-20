@@ -90,25 +90,24 @@ h3 {
     background-size: cover; 
     background-repeat: no-repeat;
     margin-bottom: 3rem;
+    z-index: 1;
 }
 
 .brand-name {
-    font-size: 6vh;
+    font-size: 12vw;
     padding-top: 30vh;
     font-weight: 500;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
     text-shadow: 3px 3px 0 var(--primary-color-light);
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 
-
- #italy{
-        width: 90px;
-        height: 60px;
-        border-left: 30px solid rgb(0,146,70);
-        border-right: 30px solid rgb(206,43,55);
-        background-color: rgb(255,255,255);
+ .italy{
+        width: 20%;
+        height: auto;
+        max-width: 200px;
+        display: block;
         margin: auto;
  }
 
@@ -349,11 +348,6 @@ form label {
 /* Media queries */
 
 @media screen and (min-width: 768px) {
-    /* Make the brand name well proportioned on larger screen */
-    .brand-name {
-        font-size: 12vh;
-    }
-
     .gallery-carousel {
         display: none;
     }
@@ -362,3 +356,4 @@ form label {
         display: block;
     }
 }
+
