@@ -39,8 +39,9 @@ h3 {
 }
 
 #logo {
-    width: auto;
-    height: 50px;
+    width: 70%;
+    height: auto;
+    max-width: 100px;
     border-radius: 50px;
 }
     
@@ -50,7 +51,7 @@ h3 {
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     letter-spacing: 0.4rem;
     font-family: var(--secondary-font);
 }
@@ -65,22 +66,6 @@ h3 {
     height: 2.5rem;
 }
 
-.reservation-btn {
-    background: transparent;
-    border: none;
-    letter-spacing: 0.4rem;
-    font-family: var(--secondary-font);
-    display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x)0;
-    font-size: 1.4rem;
-    font-weight: var(--bs-nav-link-font-weight);
-    text-decoration: none;
-    background: 0 0;
-    border: 0;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-}
-
-
 /* Header */
 .hero {
     background-image: url("../images/hero-img.jpg");
@@ -94,7 +79,7 @@ h3 {
 }
 
 .brand-name {
-    font-size: 12vw;
+    font-size: 10vw;
     padding-top: 30vh;
     font-weight: 500;
     letter-spacing: 0.4rem;
@@ -106,27 +91,21 @@ h3 {
  .italy{
         width: 20%;
         height: auto;
-        max-width: 200px;
+        max-width: 150px;
         display: block;
         margin: auto;
  }
 
 /* Main section */
-    /* Introduction */
-
-.main-content {
-        margin: 0px 20px;
-    }
-
+    /* Introduction */    
 .intro {
     background-color: white;
     margin-bottom: 3rem;
     border-radius: 30px;
+    padding-bottom: 2rem;
 }    
 .intro-title {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 6vh;
+    margin-bottom: 2.4rem;
 }
 
 .intro-text {
@@ -137,20 +116,13 @@ h3 {
     font-weight: 600;
     display: flex;
     align-items: center;
-
 }
 
 .intro-img {
     width: 100%;
     height: auto;
-    padding: 0px 10px;
-    margin-bottom: 2vh;
-    border-radius: 20px;
-}
-
-#intro-img {
-    display: flex;
-    justify-content: center;
+    padding: 0px 30px;
+    border-radius: 75px;
     margin-bottom: 30px;
 }
 
@@ -178,7 +150,7 @@ h3 {
 }
 
 .card {
-    margin: 1.5rem;
+    margin-bottom: 3rem;
     border-radius: 30px;
 }
 
@@ -218,29 +190,25 @@ h3 {
     margin-bottom: 3rem;
 }
 
-    /* Gallery expended for devices >768px*/
 #gallery-md {
     display: none;
 }
 
+    /* Gallery expended for devices >768px*/
 .gallery-md {
     background-color: white;
-    border-radius: 30px;
-    margin-top: 3rem;
+    border-radius: 30px;   
+    padding-bottom: 3rem; 
 }
 .gallery-title {
     text-align: center;
-    margin-bottom: 3rem;
-    font-size: 6vh;
+    margin-bottom: 2.4rem;
 }
 
 .gallery-img {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-evenly;
     border-radius: 10px;
-    margin-bottom: 3rem;
 }
 
    
@@ -256,12 +224,14 @@ h3 {
     height: 50px;
     width: auto;
     color: var(--secondary-color);
+    padding-top: 1rem;
 }
 
 .fa-square-facebook {
     height: 50px;
     width: auto;
     margin-left: 30px;
+    padding-top: 1rem;
 }
 
 /* Modal */
