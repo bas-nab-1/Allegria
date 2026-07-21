@@ -39,7 +39,8 @@
                         <a class="nav-link" aria-current="page" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" data-bs-target="#reservationModalToggle" data-bs-toggle="modal">Reservation</button>
+                        <a class="nav-link" aria-current="page" href="reservation.html">Reservation</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Contact us</a>
                     </li>
@@ -157,29 +158,24 @@
                                 <tr>
                                     <th class="col-10"></th>
                                     <th class="col-2"></th>
-
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <th scope="row">Cannoli</th>
                                     <td>5.50€</td>
-
                                 </tr>
                                 <tr>
                                     <th scope="row">Tiramisu</th>
                                     <td>6.00€</td>
-
                                 </tr>
                                 <tr>
                                     <th scope="row">Panna Cotta</th>
                                     <td>6.00€</td>
-
                                 </tr>
                                 <tr>
                                     <th scope="row">Gelato</th>
                                     <td>6.00€</td>
-
                                 </tr>
                             </tbody>
                         </table>
@@ -221,11 +217,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
     </main>
 
     <!-- Footer / contact section -->
@@ -265,109 +256,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Modal -->
-<div class="modal fade" id="reservationModalToggle" aria-hidden="true"
-     tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="reservationModalToggleLabel">Reservation</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form>
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">
-                                    <i class="fa-solid fa-person"></i>
-                                    Name*
-                                </label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">
-                                    <i class="fa-solid fa-phone"></i>
-                                    Phone number*
-                                </label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="date" class="form-label">
-                                    <i class="fa-regular fa-calendar-days"></i>
-                                    Date*
-                                </label>
-                                <input class="form-control" id="date" name="date" type="date" required>
-                            </div>
-
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="time" class="form-label">
-                                    <i class="fa-regular fa-clock"></i>
-                                    Time*
-                                </label>
-                                <select class="form-select" id="time" name="time" type="time" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="4">4:00</option>
-                                    <option value="4:30">4:30</option>
-                                    <option value="5">5:00</option>
-                                    <option value="5:30">5:30</option>
-                                    <option value="6">6:00</option>
-                                    <option value="6:30">6:30</option>
-                                    <option value="7">7:00</option>
-                                    <option value="7:30">7:30</option>
-                                    <option value="8">8:00</option>
-                                    <option value="8:30">8:30</option>
-                                    <option value="9">9:00</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="number" class="form-label">
-                                    <i class="fa-solid fa-list-ol"></i>
-                                    Number of guests*
-                                </label>
-                                <input class="form-control" id="number" name="number" type="number" min="1" max="12"
-                                 required>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                 <p class="groups"><em>For booking over 10 people, please call us to check availability (081 234 5678)</em></p>
-                                 </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">
-                                    <i class="fa-regular fa-message"></i>
-                                    Message
-                                </label>
-                                <textarea class="form-control" rows="4" id="message" name="message" placeholder="Write a message..."></textarea>
-                            </div>
-                            <small>* Indicates a mandatory field</small>
-                        </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                    data-bs-toggle="modal">Submit</button>
-            </div>
-        </div>
-    </div>
-</div>    
- <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" 
-     tabindex="-1">
-     <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-             <div class="modal-header">
-                 <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Congratulations!</h1>
-                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-             </div>
-             <div class="modal-body text-center">
-                 Your booking at Allegria is confirmed
-                 <br>
-                 <i class="fa-solid fa-check"></i>
-             </div>
-             <div class="modal-footer">
-                 <button class="btn btn-primary" data-bs-toggle="modal">Close</button>
-             </div>
-         </div>
-     </div>
- </div>
 
 
     <!--Boostrap script for JS-->

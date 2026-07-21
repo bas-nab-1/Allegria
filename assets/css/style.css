@@ -19,12 +19,12 @@ body {
 h1 {
     color: var(--primary-color-dark);
     font-family: var(--primary-font);
+     font-size: 10vw;
 }
 
 h2{
     color: var(--secondary-color);
     font-family: var(--primary-font);
-    font-size: 6vh;
 }
 
 h3 {
@@ -79,7 +79,7 @@ h3 {
 }
 
 .brand-name {
-    font-size: 10vw;
+   
     padding-top: 30vh;
     font-weight: 500;
     letter-spacing: 0.4rem;
@@ -234,26 +234,56 @@ h3 {
     padding-top: 1rem;
 }
 
-/* Modal */
 
-.fa-check {
-    color: var(--primary-color-dark);
+/* Reservation page */
+.booking-title {
+    padding-top: 100px;
+    margin-bottom: 1rem;
+    
+}
+.booking-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+.booking-submit {
+    margin-top: 3rem;
+}
+
+/* Success page */
+.success-message {
+    background-color: white;
+    margin-top: 6rem;
+    border-radius: 30px;
+}
+
+.success-logo {
+    width: 16vw;
+    height: auto;
+}
+
+.success-text {
+    font-family: var(--secondary-font);
+}
+
+.tick-logo {
+    display: flex;
     justify-content: center;
+    padding-bottom: 1.5rem;
 }
 
-.modal-title {
-    margin: auto;
-    padding-left: 95px;
+.tick {
+    color: var(--primary-color-dark);
+    width: 6vw;
+    height: auto;
+    align-items: center;
 }
 
-form label {
-    color: var(--secondary-color);
-}
-
-/* Menu */
+/* Menu page */
 #menu-logo {
-    width: auto;
-    height: 125px;
+    width: 16vw;
+    height: auto;
     margin: 40px auto;
 
 }
