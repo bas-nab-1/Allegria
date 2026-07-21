@@ -280,6 +280,12 @@ h3 {
     align-items: center;
 }
 
+.return {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
 /* Menu page */
 #menu-logo {
     width: 16vw;
