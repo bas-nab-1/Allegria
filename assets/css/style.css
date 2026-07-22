@@ -239,8 +239,8 @@ h3 {
 .booking-title {
     padding-top: 100px;
     margin-bottom: 1rem;
-    
 }
+
 .booking-form {
     background-color: white;
     padding: 2rem;
@@ -258,6 +258,10 @@ h3 {
     border-radius: 30px;
 }
 
+.success-message h1 {
+    display: none;
+}
+
 .success-logo {
     width: 16vw;
     height: auto;
@@ -265,6 +269,7 @@ h3 {
 
 .success-text {
     font-family: var(--secondary-font);
+    font-size: 1.7rem;
 }
 
 .tick-logo {
@@ -284,11 +289,13 @@ h3 {
     text-align: center;
     padding-bottom: 2rem;
     font-size: 1.4rem;
+    text-decoration: underline;
+    letter-spacing: 0.2rem;
 }
 
 /* Menu page */
 #menu-logo {
-    width: 16vw;
+    width: 175px;
     height: auto;
     margin: 40px auto;
 
@@ -361,5 +368,21 @@ h3 {
     #gallery-md {
         display: block;
     }
+
+    #menu-logo {
+    width: 225px;
+ }
 }
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 7vw;
+    }
+
+    #menu-logo {
+    width: 275px;
+ }
+}
+ 
 
