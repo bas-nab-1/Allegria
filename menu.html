@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container">
+        <section class="container">
             <a class="navbar-brand" href="index.html">
                 <div class="logo">
                     <img src="assets/images/logo.jpg" id="logo" alt="allegria logo">
@@ -46,11 +46,11 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
     </nav>
 
     <main>
-        <div class="container pizza-menu">
+        <section class="container pizza-menu">
             <div class="row">
                 <img src="assets/images/logo.jpg" id="menu-logo" alt="allegria logo">
                 <h1 class="menu-title">Menu</h1>
@@ -216,12 +216,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Footer / contact section -->
     <footer id="footer">
-        <div class="row justify-content-center">
+        <section class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2>Contact Us</h2>
             </div>
@@ -254,7 +254,7 @@
                             class="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
 
 
@@ -265,6 +265,28 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/7709c2b732.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+<script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
 
 </body>
 
