@@ -123,11 +123,12 @@ h3 {
 }
 
 .intro-img {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 85%;
     height: auto;
-    padding: 0px 30px;
-    border-radius: 75px;
-    margin-bottom: 30px;
+    border-radius: 30px;
+    margin: auto;
 }
 
 .intro-info {
