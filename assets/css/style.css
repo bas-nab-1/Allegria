@@ -379,6 +379,13 @@ h3 {
     border-radius: 30px
 }
 
+/* 404 page */
+.error {
+    color: var(--secondary-color);
+    width: auto;
+    height: 6vh
+}
+
 /* Media queries */
 
 @media screen and (min-width: 768px) {
