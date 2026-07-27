@@ -383,6 +383,12 @@ h3 {
 }
 
 /* 404 page */
+.error-message {
+    background-color: white;
+    margin-top: 6rem;
+    border-radius: 30px;
+}
+
 .error {
     color: var(--secondary-color);
     width: auto;
