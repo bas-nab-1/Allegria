@@ -31,6 +31,10 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+.section-header {
+    display: none;
+}
+
 /* Navigation */
 .navbar {
    background-color: var(--primary-color-light);
