@@ -8,7 +8,6 @@
 --primary-color-dark: rgb(2, 122, 60);
 --primary-color-light: rgb(173, 235, 203);
 --secondary-color: rgb(206,43,55);
---tertiary-color: rgb(131, 114, 114);
 }
 
 /* Global styles */
@@ -57,7 +56,6 @@ h3 {
 }
 
 .nav-link:hover {
-    color: var(--tertiary-color);
     text-decoration: underline;
 }
 
