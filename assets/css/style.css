@@ -30,7 +30,7 @@ h3 {
     color: var(--primary-color-dark);
     font-family: var(--secondary-font);
 }
-
+/* Used to hide headers from the page display*/
 .section-header {
     display: none;
 }
