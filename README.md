@@ -111,11 +111,11 @@ I've used [figma](https://www.figma.com/)) to design my site wireframes.
 | Target | Expectation | Outcome |
 | --- | --- | --- |
 | As a first time visitor | I need easy navigation and a user-friendly design, including a responsive layout for my device | so I can find information quickly and efficiently without frustration. |
-| As a potential customer |I want to see high-quality images and engaging descriptions of the food on offer | so I can decide if it's a restaurant i would like to try. |
+| As a potential customer |I want to see high-quality images and visual descriptions of the food on offer | so I can decide if it's a restaurant i would like to try. |
 | As a Prospective Customer | I need to find essential information such as location, contact details, and opening hours clearly and concisely | so I can easily plan my visit. |
 | As an user | I want to book a table using a simple booking inquiry form | so I can easily organise a group visit or a special occasion. |
 | As a pizza lover |  I would like to know the menu options | so I can decide if I would visit your restaurant. |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with new products and promotions. |
+| As a user | I would like to follow the restaurant on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with new products and promotions. |
 | As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
 
 ## Features
@@ -163,12 +163,6 @@ I've used [figma](https://www.figma.com/)) to design my site wireframes.
 ## Agile Development Process
 
 ### GitHub Projects
-
-⚠️ TIP ⚠️
-
-Consider adding screenshots of your Projects Board(s), Issues (open and closed), and Milestone tasks.
-
-⚠️ --- END ---⚠️
 
 [GitHub Projects](https://www.github.com/bas-nab-1/Allegria/projects) was used to track progress on the project by adding the user stories, and completing their respective tasks and acceptance criteria. 
 
