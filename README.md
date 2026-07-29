@@ -239,6 +239,7 @@ There are no remaining major differences between the local version when compared
 | [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | "How to Write a Git Commit Message" |
 | [Bootstrap](https://getbootstrap.com) | Various components / responsive front-end framework |
+| Code Institute | Providing the JS Script to close the toggle navbar when navigating to an in page link |
 | Tim Nelson | Providing me with the JS Script for the reservation form and help writting the documentation |
 
 ### Media
